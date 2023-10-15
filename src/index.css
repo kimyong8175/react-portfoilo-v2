@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  @apply bg-gradient-to-r from-midnight to-fullblack min-h-screen;
+}
