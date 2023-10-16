@@ -1,10 +1,17 @@
 import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
     <>
       <Header />
-      <main className="main">Main</main>
+      <main className="main">
+        <Hero />
+        <About />
+        <Skills />
+      </main>
     </>
   );
 }
