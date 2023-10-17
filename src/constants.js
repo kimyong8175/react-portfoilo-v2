@@ -1,6 +1,6 @@
 import COINTRACKER from "./assets/images/newcoin.png";
 import TODO from "./assets/images/newtodo.png";
-import ECOMMERCE from "./assets/images/ecommerce.png";
+import ECOMMERCE from "./assets/images/newecommerce.png";
 
 export const navItems = [
   {
@@ -13,19 +13,22 @@ export const navItems = [
     id: 2,
     name: "About",
     to: "about",
-    ref: "",
   },
   {
     id: 3,
+    name: "Skills",
+    to: "skills",
+  },
+  {
+    id: 4,
     name: "Projects",
     to: "projects",
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Contact",
     to: "contact",
-    ref: "",
   },
 ];
 
@@ -43,7 +46,7 @@ export const projects = [
     title: "Ecommerce",
     subtitle: "MERN Stack & Redux-toolkit",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This is a full-featured e-commerce project built with MERN stack & redux-toolkit. It has PayPal & credit/debit payments",
     image: ECOMMERCE,
     link: "https://github.com/kimyong8175/ecommerce",
     demo: "https://www.yongcommerce.com",
@@ -52,7 +55,7 @@ export const projects = [
     title: "Coin Tracker",
     subtitle: "React and Recoil",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This is a simple toy project built with React & recoil. It has some feature of traking coin price and quantity with Apexcharts library.",
     image: COINTRACKER,
     link: "https://github.com/kimyong8175/coin-tracker",
     demo: "https://kimyong8175.github.io/coin-tracker",
@@ -61,7 +64,7 @@ export const projects = [
     title: "To-Do app",
     subtitle: "React and Recoil",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This is a simple toy project built with React & recoil. It does not have a backend part. It has CRUD feature for user.",
     image: TODO,
     link: "https://github.com/kimyong8175/new-todo",
     demo: "https://kimyong8175.github.io/new-todo/",

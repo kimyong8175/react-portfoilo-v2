@@ -10,6 +10,7 @@ export default {
     colors: {
       white: "#fff",
       midnight: "#434343",
+      darkblue: "#1837B5",
       black: "#000000",
       primary: "#FFFFFF",
       secondary: "#ccd6f6",

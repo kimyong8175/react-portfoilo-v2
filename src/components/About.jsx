@@ -1,10 +1,12 @@
-import Title from "./Title";
-import AVATAR from "../assets/images/avatar.png";
+import { forwardRef } from "react";
 import { BiSolidRightArrow } from "react-icons/bi";
 
-const About = () => {
+import Title from "./Title";
+import AVATAR from "../assets/images/avatar.png";
+
+const About = forwardRef(function About(props, ref) {
   return (
-    <div className="container mx-auto pt-18 pb-20">
+    <div ref={ref} className="container mx-auto pt-18 pb-20">
       <div className="flex-col items-center justify-center ">
         <div className="flex justify-center">
           <Title emoji={"👨‍💻"} no={"01"} content={"About Me"} />
@@ -43,6 +45,6 @@ const About = () => {
       </div>
     </div>
   );
-};
+});
 
 export default About;

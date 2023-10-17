@@ -1,11 +1,12 @@
+import { forwardRef } from "react";
 import { HiOutlineBadgeCheck } from "react-icons/hi";
 
 import Title from "./Title";
 import { skills } from "../constants";
 
-const Skills = () => {
+const Skills = forwardRef(function About(props, ref) {
   return (
-    <div className="container mx-auto py-40">
+    <div ref={ref} className="container mx-auto py-40">
       <div className="flex-col items-center justify-center ">
         <div className="flex justify-center">
           <Title no={"02"} emoji={"🛠"} content={"Skills & Technologies"} />
@@ -25,6 +26,6 @@ const Skills = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Skills;

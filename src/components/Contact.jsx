@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState, forwardRef } from "react";
 import { BiMap, BiLogoGmail } from "react-icons/bi";
 import { BsPhone } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
 
 import Title from "./Title";
 
-const Contact = () => {
+const Contact = forwardRef(function Contact(props, ref) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -36,7 +36,10 @@ const Contact = () => {
       );
   };
   return (
-    <div className="container mx-auto flex flex-col items-center min-h-screen justify-center py-44">
+    <div
+      ref={ref}
+      className="container mx-auto flex flex-col items-center min-h-screen justify-center py-44"
+    >
       <div className="mb-28">
         <Title no={"04"} emoji={"✉️"} content={"Contact Me"} />
       </div>
@@ -113,6 +116,6 @@ const Contact = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Contact;

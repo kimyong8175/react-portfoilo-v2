@@ -1,8 +1,11 @@
-// import Layout from "../layout/Layout";
+import { forwardRef } from "react";
 
-const Hero = () => {
+const Hero = forwardRef(function Hero(props, ref) {
   return (
-    <div className="w-full min-h-screen flex justify-center items-center ">
+    <div
+      ref={ref}
+      className="w-full min-h-screen flex justify-center items-center "
+    >
       <div className="w-8/12 py-3 px-10 ">
         <p className="text-green">🤚 Hi, my name is</p>
         <p className="text-primary font-bold text-8xl tracking-wider mt-4">
@@ -22,6 +25,6 @@ const Hero = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Hero;
