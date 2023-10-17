@@ -5,12 +5,12 @@ import { skills } from "../constants";
 
 const Skills = () => {
   return (
-    <div className="container mx-auto min-h-screen py-2">
+    <div className="container mx-auto py-40">
       <div className="flex-col items-center justify-center ">
         <div className="flex justify-center">
           <Title no={"02"} emoji={"🛠"} content={"Skills & Technologies"} />
         </div>
-        <div className="flex flex-wrap justify-center lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 mt-20">
+        <div className="flex flex-wrap justify-center lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 mt-36">
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full mt-3">
               <div className=" bg-midnight flex p-6 h-full items-center rounded-md gap-4">

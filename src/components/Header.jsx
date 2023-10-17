@@ -1,4 +1,4 @@
-import navItems from "../constants";
+import { navItems } from "../constants";
 
 const Header = () => {
   return (

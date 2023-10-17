@@ -13,7 +13,7 @@ const Title = ({ emoji, no, content }) => {
 };
 
 Title.propTypes = {
-  emoji: PropTypes.symbol,
+  emoji: PropTypes.string,
   no: PropTypes.string,
   content: PropTypes.string,
 };

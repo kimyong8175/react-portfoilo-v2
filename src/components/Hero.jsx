@@ -11,12 +11,12 @@ const Hero = () => {
         <p className="text-secondary text-5xl mt-4 font-semibold">
           Full-stack Developer
         </p>
-        <div className="text-secondary mt-4 w-8/12 text-md font-medium tracking-widest leading-loose">
+        <div className="text-secondary mt-4 w-8/12 text-md font-normal tracking-widest leading-loose">
           As a Full-stack developer, my ambition is to enhance user experiences
           and build innovative web interfaces that make the web more convenient
           for people.
         </div>
-        <button className=" opacity-100 px-16 py-5 border-4 border-green mt-5 rounded-xl text-green text-lg">
+        <button className=" opacity-100 px-16 py-5 border-4 border-green mt-8 rounded-xl text-green text-lg">
           Resume
         </button>
       </div>
