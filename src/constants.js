@@ -2,36 +2,6 @@ import COINTRACKER from "./assets/images/newcoin.png";
 import TODO from "./assets/images/newtodo.png";
 import ECOMMERCE from "./assets/images/newecommerce.png";
 
-export const navItems = [
-  {
-    id: 1,
-    name: "Home",
-    to: "intro",
-    ref: "",
-  },
-  {
-    id: 2,
-    name: "About",
-    to: "about",
-  },
-  {
-    id: 3,
-    name: "Skills",
-    to: "skills",
-  },
-  {
-    id: 4,
-    name: "Projects",
-    to: "projects",
-  },
-
-  {
-    id: 5,
-    name: "Contact",
-    to: "contact",
-  },
-];
-
 export const skills = [
   "React",
   "JavaScript",
