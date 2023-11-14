@@ -2,7 +2,7 @@
 This project is built with React and TailwindCSS.
 
 ## 💻 프로젝트 소개
-<img width="1440" alt="portfolio" src="https://github.com/kimyong8175/react-portfoilo-v2/assets/98473560/b664c6ce-d5ef-41e1-8d54-f05a56787f1e">
+<img width="1440" alt="Screen Shot 2023-11-14 at 12 36 08 PM" src="https://github.com/kimyong8175/react-portfoilo-v2/assets/98473560/07446b2a-e067-4215-a285-0f3e5dfad2fd">
 Demo: <a href='https://regal-snickerdoodle-a21bc3.netlify.app'>React Portfolio</a>
 
 ## 🛠 Features(기능)
