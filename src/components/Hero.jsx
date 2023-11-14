@@ -12,10 +12,10 @@ const Hero = forwardRef(function Hero(props, ref) {
           Yonghyun Kim
         </p>
         <p className="text-secondary text-5xl mt-4 font-semibold">
-          Full-stack Developer
+          Frontend Developer
         </p>
         <div className="text-secondary mt-4 w-8/12 text-md font-normal tracking-widest leading-loose">
-          As a Full-stack developer, my ambition is to enhance user experiences
+          As a Frontend developer, my ambition is to enhance user experiences
           and build innovative web interfaces that make the web more convenient
           for people.
         </div>
